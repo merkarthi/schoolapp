@@ -208,8 +208,8 @@ img {
 }
 
 .avatar-sm {
-    height: 3rem;
-    width: 3rem;
+    height: 3.5rem;
+    width: 3.5rem;
 }
 
 .avatar-md {
@@ -2210,6 +2210,11 @@ img {
     box-shadow: 0 0.313rem 0.875rem rgba(45, 49, 54, 0.12);
 }
 
+
+/* Font awesome  */
+
+
+
 @media (min-width: 992px) {
     .preview .welcome-intro p {
         font-size: 15px;
@@ -2229,3 +2234,5 @@ img {
         padding-top: 0;
     }
 }
+
+
