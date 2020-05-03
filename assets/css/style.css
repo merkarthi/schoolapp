@@ -1500,7 +1500,7 @@ img {
     transition: all 0.3s ease 0s;
 }
 
-.team-thumb > img {
+.team-thumb > a > img {
     -webkit-transform: scale(1.0);
     transform: scale(1.0);
     -webkit-transition: all 0.3s ease-in-out 0s;
@@ -1580,7 +1580,7 @@ img {
     transform: scale(1);
 }
 
-.single-team:hover .team-thumb > img {
+.single-team:hover .team-thumb > a> img {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
@@ -2209,7 +2209,9 @@ img {
     transform: translateY(-10px);
     box-shadow: 0 0.313rem 0.875rem rgba(45, 49, 54, 0.12);
 }
-
+.copyright-left > a{
+    color:#4528DC;
+}
 
 /* Font awesome  */
 
@@ -2217,6 +2219,7 @@ img {
     color: #fff;
     font-size: 2.5rem;
 
+    
 
 
 @media (min-width: 992px) {
